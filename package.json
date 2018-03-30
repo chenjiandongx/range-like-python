@@ -1,11 +1,11 @@
 {
-  "name": "rlp",
-  "version": "1.0.0",
-  "description": "range like python",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "chenjiandongx",
-  "license": "MIT"
+    "name": "range-like-python",
+    "version": "1.0.1",
+    "description": "range like python",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "chenjiandongx",
+    "license": "MIT"
 }

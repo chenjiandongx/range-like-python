@@ -1,5 +1,4 @@
 module.exports = function*(start, stop, step = 1) {
-
     let args = [...arguments];
 
     if (args.length === 0) {
@@ -15,7 +14,7 @@ module.exports = function*(start, stop, step = 1) {
 
     function isInteger(...num) {
         for (let n of num) {
-            if (!(typeof n === 'number') || !(num % 1 === 0)) {
+            if (!((typeof n === 'number') && (n % 1 === 0))) {
                 return false;
             }
         }

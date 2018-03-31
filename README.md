@@ -16,8 +16,7 @@ const range = require('range-like-python');
 for (let i of range(5)) {
     console.log(i);
 }
-
-// 输出
+//
 0
 1
 2
@@ -27,8 +26,7 @@ for (let i of range(5)) {
 for (let i of range(1， 5)) {
     console.log(i);
 }
-
-// 输出
+//
 1
 2
 3
@@ -37,12 +35,24 @@ for (let i of range(1， 5)) {
 for (let i of range(2, 10, 2)) {
     console.log(i);
 }
-
-// 输出
+//
 2
 4
 6
 8
+
+实际上 range() 是一个生成器函数
+
+r = range(10);
+console.log(r.next())
+console.log(r.next())
+console.log(r.next())
+console.log(r.next())
+//
+{ value: 0, done: false }
+{ value: 1, done: false }
+{ value: 2, done: false }
+{ value: 3, done: false }
 ```
 
 ## LICENSE

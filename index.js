@@ -1,3 +1,10 @@
+/*!
+ * range-like-python <https://github.com/jchenjiandongx/range-like-python>
+ *
+ * Copyright (c) 2018 chenjiandongx
+ * Licensed under the MIT license.
+ */
+
 module.exports = function*(start, stop, step = 1) {
     let args = [...arguments];
 
@@ -22,12 +29,12 @@ module.exports = function*(start, stop, step = 1) {
     }
 
     if (!(isInteger(start, stop, step))) {
-        return null
+        return;
     }
     if (step < 0 || stop < start) {
-        return null;
+        return;
     }
     for (let i = start; i < stop; i += step) {
-        yield i
+        yield i;
     }
 }

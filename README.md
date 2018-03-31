@@ -1,17 +1,17 @@
 # range-like-python
 
-[![NPM](https://img.shields.io/npm/v/range-like-python.svg)](https://www.npmjs.org/package/range-like-python) [![Build Status](https://travis-ci.org/chenjiandongx/range-like-python.svg?branch=master)](https://travis-ci.org/chenjiandongx/range-like-python) 
+[![Build Status](https://travis-ci.org/chenjiandongx/range-like-python.svg?branch=master)](https://travis-ci.org/chenjiandongx/range-like-python)  [![NPM](https://img.shields.io/npm/v/range-like-python.svg)](https://www.npmjs.org/package/range-like-python) 
 
 Python range() 函数的 Nodejs 实现。
 
-## 安装
+### 安装
 
 ```shell
 $ npm install range-like-python
 ```
 
 
-## 使用
+### 示例
 ``` javascript
 const range = require('range-like-python');
 
@@ -55,6 +55,11 @@ console.log(r.next())
 { value: 1, done: false }
 { value: 2, done: false }
 { value: 3, done: false }
+```
+
+### 测试
+``` shell
+$ mocha
 ```
 
 ## LICENSE

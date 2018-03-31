@@ -1,6 +1,8 @@
 # range-like-python
 
-习惯了 Python 的 range 写法，也想给 Nodejs 也模仿一个。
+[![NPM](https://img.shields.io/npm/v/range-like-python.svg)](https://www.npmjs.org/package/range-like-python)
+
+Python range() 函数的 Nodejs 实现。
 
 ## 安装
 

@@ -1,6 +1,6 @@
 # range-like-python
 
-[![NPM](https://img.shields.io/npm/v/range-like-python.svg)](https://www.npmjs.org/package/range-like-python)
+[![NPM](https://img.shields.io/npm/v/range-like-python.svg)](https://www.npmjs.org/package/range-like-python) [![Build Status](https://travis-ci.org/chenjiandongx/range-like-python.svg?branch=master)](https://travis-ci.org/chenjiandongx/range-like-python) 
 
 Python range() 函数的 Nodejs 实现。
 
